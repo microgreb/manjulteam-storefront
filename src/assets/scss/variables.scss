@@ -1,0 +1,111 @@
+//Colors
+// ToDo remove c_
+$c_black: black;
+$c_white: white;
+$c_dark_white: #f9fafa;
+$c_grey_light: #c3c3c3;
+$c_grey: #545454;
+$c_grey_dark: #303030;
+$c_black_light: #888;
+$c_grey2: #e2e6e6;
+$c_progressbar_hl: #DCDCDC;
+$c_error_hl: #C81428;
+$c_inactive: #dcdcdc;
+$c_green: #00C819;
+$c_red: #DC003C;
+$c_blue: #00B4FF;
+
+
+// Sizes
+
+// Css variables
+body {
+
+  /*Desktop*/
+  @media only screen and (min-width: 768px) {
+    --vw_1: 0.052vw;
+    --vw_2: 0.104vw;
+    --vw_3: 0.156vw;
+    --vw_5: 0.260vw;
+    --vw_8: 0.416vw;
+    --vw_13: 0.677vw;
+    --vw_16: 0.833vw;
+    --vw_21: 1.093vw;
+    --vw_26: 1.354vw;
+    --vw_34: 1.77vw;
+    --vw_42: 2.1875vw;
+    --vw_55: 2.864vw;
+    --vw_68: 3.541vw;
+    --vw_89: 4.635vw;
+    --vw_110: 5.729vw;
+    --vw_144: 7.5vw;
+    --vw_178: 9.27vw;
+    --vw_233: 12.135vw;
+    --vw_288: 15vw;
+    --vw_377: 19.635vw;
+    --vw_610: 31.77vw;
+    --vw_754: 39.27vw;
+    --vw_987: 51.406vw;
+
+    --screen_height_without_header: calc( 100vh - 2.864vw );
+    --header_height: 2.864vw;
+  }
+
+  /*Mobile*/
+  @media only screen and (max-width: 767px) {
+    --vw_1: .0925vw;
+    --vw_2: .185vw;
+    --vw_3: .277vw;
+    --vw_5: .46vw;
+    --vw_8: .74vw;
+    --vw_13: 1.02vw;
+    --vw_16: 1.48vw;
+    --vw_21: 1.94vw;
+    --vw_26: 2.4vw;
+    --vw_34: 3.14vw;
+    --vw_42: 3.88vw;
+    --vw_55: 5.09vw;
+    --vw_68: 6.29vw;
+    --vw_89: 8.24vw;
+    --vw_110: 10.18vw;
+    --vw_144: 13.3vw;
+    --vw_178: 16.47vw;
+    --vw_233: 21.57vw;
+    --vw_288: 26.66vw;
+    --vw_377: 34.9vw;
+    --vw_610: 56.47vw;
+    --vw_754: 69.8vw;
+    --vw_987: 91.37vw;
+
+    --screen_height_without_header: calc( 100vh - 10.18vw );
+    --header_height: 10.18vw;
+    --carousel_min-height: 154vw;
+  }
+}
+
+// Sass variables
+$vw_1: 0.052vw;
+$vw_2: 0.104vw;
+$vw_3: 0.156vw;
+$vw_5: 0.260vw;
+$vw_8: 0.416vw;
+$vw_13: 0.677vw;
+$vw_16: 0.833vw;
+$vw_21: 1.093vw;
+$vw_26: 1.354vw;
+$vw_34: 1.77vw;
+$vw_42: 2.1875vw;
+$vw_55: 2.864vw;
+$vw_68: 3.541vw;
+$vw_89: 4.635vw;
+$vw_110: 5.729vw;
+$vw_144: 7.5vw;
+$vw_178: 9.27vw;
+$vw_233: 12.135vw;
+$vw_288: 15vw;
+$vw_377: 19.635vw;
+$vw_610: 31.77vw;
+$vw_987: 51.406vw;
+
+$one_third: calc(100vw / 3);
+$two_thirds: calc(200vw / 3);
